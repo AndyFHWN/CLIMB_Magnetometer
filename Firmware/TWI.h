@@ -44,7 +44,7 @@
 	#define TWI_STX_ADR_ACK_M_ARB_LOST	0xB0  // Arbitration lost in SLA+R/W as Master; own SLA+R has been received; ACK has been returned
 	#define TWI_STX_DATA_ACK			0xB8  // Data byte in TWDR has been transmitted; ACK has been received
 	#define TWI_STX_DATA_NACK			0xC0  // Data byte in TWDR has been transmitted; NOT ACK has been received
-	#define TWI_STX_DATA_ACK_LAST_BYTE	0xC8  // Last data byte in TWDR has been transmitted (TWEA = ì0î); ACK has been received
+	#define TWI_STX_DATA_ACK_LAST_BYTE	0xC8  // Last data byte in TWDR has been transmitted (TWEA = ‚Äú0‚Äù); ACK has been received
 	// TWI slave receiver status codes
 	#define TWI_SRX_ADR_ACK				0x60  // Own SLA+W has been received ACK has been returned
 	#define TWI_SRX_ADR_ACK_M_ARB_LOST	0x68  // Arbitration lost in SLA+R/W as Master; own SLA+W has been received; ACK has been returned
@@ -56,7 +56,7 @@
 	#define TWI_SRX_GEN_DATA_NACK		0x98  // Previously addressed with general call; data has been received; NOT ACK has been returned
 	#define TWI_SRX_STOP_RESTART		0xA0  // A STOP condition or repeated START condition has been received while still addressed as Slave
 	// TWI miscellaneous status codes
-	#define TWI_NO_STATE				0xF8  // No relevant state information available; TWINT = ì0î
+	#define TWI_NO_STATE				0xF8  // No relevant state information available; TWINT = ‚Äú0‚Äù
 	#define TWI_BUS_ERROR				0x00  // Bus error due to an illegal START or STOP condition
 	// masks for TWCR and TWSR
 	#define TWCR_CMD_MASK				0x0F
