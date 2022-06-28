@@ -20,7 +20,7 @@
 #include "ioMC.h"				// Pin definitions
 #include "SPI.h"				// SPI commands
 #include "UART.h"				// UART commands
-#include "TWI.h"				// Two Wire Interface, I²2
+#include "TWI.h"				// Two Wire Interface, IÂ²2
 #include "HMC.h"				// HMC sensory
 #include "MEMSIC.h"				// Memsic Sensory
 #include "simpleTimer.h"
